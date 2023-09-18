@@ -1,0 +1,29 @@
+.img-banner {
+    background-image: url("../../public/Assets/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.topo {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-banner {
+    text-align: center;
+    width: 500px;
+}
+
+.titulo-banner h1 {
+    color: #fff;
+    text-shadow: 2px 2px 5px #daa520;
+    font-size: 70px;
+}
+
+.titulo-banner p {
+    font-family: 'Dancing Script', cursive;
+    color: #daa520;
+    font-size: 30px;
+}

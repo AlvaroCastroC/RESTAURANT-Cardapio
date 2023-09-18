@@ -1,0 +1,79 @@
+.box-cards{
+    width: calc((50% - 20px) / 2);
+    margin: 20px;
+    
+    flex-grow: 1;
+   
+}
+
+.cards{
+    min-width: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+
+    border: 1px solid #daa520;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+
+}
+
+.cards .container-imagem {
+    width: 100%;
+    
+}
+
+.cards .container-imagem img {
+    width: 100%;
+    min-height: 250px;
+    max-height: 300px;
+    object-fit: cover;
+   
+}
+
+.cards .container-texto {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container-descricao {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    
+    
+}
+
+
+.cards .container-descricao  .nome{    
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.cards .container-descricao  .categoria{
+    font-size: 12px;
+    color: #daa520;
+}
+
+.cards .container-descricao .descricao{
+    font-size: 15px;
+    color: #000000;
+    
+}
+
+.cards .container-preco .preco{
+    font-size: 15px;
+    font-weight: 600;
+    text-align: right;
+}
+
