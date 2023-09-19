@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RESTAURANT-Cardapio/static/css/main.5bcb09ad.css",
+    "main.css": "/RESTAURANT-Cardapio/static/css/main.6ec3f702.css",
     "main.js": "/RESTAURANT-Cardapio/static/js/main.d79a7884.js",
     "static/js/787.7a46161c.chunk.js": "/RESTAURANT-Cardapio/static/js/787.7a46161c.chunk.js",
     "static/media/mil-folhas.jpg": "/RESTAURANT-Cardapio/static/media/mil-folhas.7432211a0b7dfa608866.jpg",
@@ -35,12 +35,12 @@
     "static/media/picanha.png": "/RESTAURANT-Cardapio/static/media/picanha.53696634212470a19970.png",
     "static/media/aligot.jpg": "/RESTAURANT-Cardapio/static/media/aligot.575a6fc7b39e7bb034b4.jpg",
     "index.html": "/RESTAURANT-Cardapio/index.html",
-    "main.5bcb09ad.css.map": "/RESTAURANT-Cardapio/static/css/main.5bcb09ad.css.map",
+    "main.6ec3f702.css.map": "/RESTAURANT-Cardapio/static/css/main.6ec3f702.css.map",
     "main.d79a7884.js.map": "/RESTAURANT-Cardapio/static/js/main.d79a7884.js.map",
     "787.7a46161c.chunk.js.map": "/RESTAURANT-Cardapio/static/js/787.7a46161c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bcb09ad.css",
+    "static/css/main.6ec3f702.css",
     "static/js/main.d79a7884.js"
   ]
 }
