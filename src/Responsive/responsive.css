@@ -1,5 +1,10 @@
-@media only screen and (min-width: 410px) and (max-width: 512px) {
+/* Responsividade para celulares*/
 
+@media only screen and (min-width: 410px) and (max-width: 512px) {
+    .container-limite {
+        max-width: 390px;
+    }
+    
     .img-banner {
         background-image: url("../../public/Assets/banner.png");
         background-position: center center;
@@ -54,8 +59,8 @@
     }
 
     .pesquisa-filtro div:nth-child(2){
-        order:-1;
-        margin-bottom: 20px;
+        order: -1;
+        margin: 20px 0;
 
     }
 
@@ -80,4 +85,201 @@
 
 
 
+}
+
+/* Responsividade para tablets*/
+
+@media only screen and (min-width: 760px) and (max-width: 800px) {
+
+    .container-limite {
+        max-width: 750px;
+    }
+
+
+    .img-banner {
+        background-image: url("../../public/Assets/banner.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    .titulo-banner {
+        width: 400px;
+    }
+
+
+    .titulo-banner h1 {
+        font-size: 50px;
+    }
+
+    .container-botoes{
+        margin: 10px auto; 
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .container-botoes img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .container-botoes button {
+        width: 170px;
+        height: 60px;
+        padding: 5px 10px;
+        
+    }
+
+    button p{
+        font-size: 15px;
+    }
+
+    .container-busca {
+        gap: 20px; 
+        
+    }
+
+    .pesquisa-filtro{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #daa520;
+        padding: 0 20px;
+    }
+
+    .pesquisa-filtro div:nth-child(2){
+       
+        margin: 20px 0;
+
+    }
+
+    .container-busca input {
+        width: 85%;
+        
+    }
+
+    .container-busca img {
+        width: 20px;
+    }
+    
+    .box-cards{
+        width: 100%;
+        margin: 20px;
+       
+    }
+
+    .cards .container-descricao  .nome{    
+     
+        font-size: 22px;
+    }
+
+    .cards .container-descricao  .categoria{
+        font-size: 17px;
+    }
+
+
+    .cards .container-descricao .descricao{
+        font-size: 20px;        
+    }
+    
+    .cards .container-preco .preco{
+        font-size: 19px;
+    }
+    
+}
+
+/* Responsividade para notebooks*/
+
+@media only screen and (min-width: 820px) and (max-width: 920px) {
+
+    .container-limite {
+        max-width: 790px;
+    }
+
+    .img-banner {
+        background-image: url("../../public/Assets/banner.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+
+    .titulo-banner h1 {
+        font-size: 70px;
+    }
+
+    .container-botoes{
+        margin: 10px auto; 
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    .container-botoes img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .container-botoes button {
+        width: 170px;
+        height: 60px;
+        padding: 5px 10px;
+        
+    }
+
+    button p{
+        font-size: 17px;
+    }
+
+    .container-busca {
+        gap: 20px; 
+        
+        
+    }
+
+    .pesquisa-filtro{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #daa520;
+    }
+
+    .container-busca input {
+        width: 85%;
+        
+    }
+
+    .container-busca img {
+        width: 20px;
+    }
+    
+    .box-cards{
+        width: 100%;
+        margin: 20px;
+       
+    }
+
+    .cards .container-descricao  .nome{    
+     
+        font-size: 22px;
+    }
+
+    .cards .container-descricao  .categoria{
+        font-size: 17px;
+    }
+
+
+    .cards .container-descricao .descricao{
+        font-size: 20px;        
+    }
+    
+    .cards .container-preco .preco{
+        font-size: 19px;
+    }
+    
 }
