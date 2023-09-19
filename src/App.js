@@ -4,6 +4,8 @@ import Cards from './Cards';
 import React, {useState} from 'react';
 import { retornarProdutos, buscarListaProdutos, filtroListaProdutos } from './Serviços/index';
 
+import './Responsive/responsive.css';
+
 
 function App() {
 
@@ -73,8 +75,9 @@ function App() {
             onChange={(event) => buscagemProdutos(event.target.value) } />
         
           </div>
-
-          <h2>Cardápio</h2>
+        </div>
+        
+        <h2>Cardápio</h2>
           <div className="container-cards">
             {
             listaProdutos.map((produto) => (
@@ -91,7 +94,7 @@ function App() {
           }
         </div>
 
-        </div>
+        
 
       </div>
   

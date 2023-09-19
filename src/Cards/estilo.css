@@ -1,7 +1,6 @@
 .box-cards{
     width: calc((50% - 20px) / 2);
     margin: 20px;
-    
     flex-grow: 1;
    
 }
